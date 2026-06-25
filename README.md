@@ -11,4 +11,24 @@ Static RSVP landing page built with Vite + React that runs locally on my machine
 ```bash
 cd frontend
 npm install
-npm run dev
+npm run dev 
+```
+
+## Production Build
+
+```bash
+cd frontend
+npm run build
+npm run preview
+```
+
+## Planned Architecture
+
+- Static frontend
+- S3 and CloudFront hosting
+- API Gateway
+- Lambda
+- DynamoDB
+- Admin access
+- CI/CD with GitHub Actions
+- Infrastructure as Code with TerraForm
